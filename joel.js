@@ -1,7 +1,10 @@
-let b = 10;
-let h = 4;
-pi = Math.PI
+function funciones() {
+  let b = 10;
+  let h = 4;
+  let circulo = b ** 2 * Math.PI;
+  let area = b * h;
+  console.log("Circulo: ", circulo);
+  console.log("Area: ", area);
+}
 
-let area = pi * (b **2);
-
-console.log(area);
+funciones();
